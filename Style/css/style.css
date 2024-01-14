@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: pink;
+}
+
+#audio-container {
+    margin-top: 1cm;
+    text-align: center;
+}
+
+audio {
+    width: 50%; /* Du kannst die Breite nach Bedarf anpassen */
+}
+
+#lick, #pet {
+    text-align: center;
+    line-height: 3cm;
+}
+
+#lick img {
+    width: 15%;
+    height: auto;
+}
+
+#pet img {
+    width: 10%;
+    height: auto;
+}
+
+#astolfo {
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    width: 150px; /* Optional: Ändere die Breite nach Bedarf */
+    height: auto; /* Skaliert das Bild proportional */
+}
